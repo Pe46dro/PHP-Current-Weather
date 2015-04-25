@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class Weather</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+		</div>
+
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Weather.html">Weather</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Weather</h1>
+
+
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		
+
+			<b>Located at</b> <a href="source-class-Weather.html#3-290" title="Go to source code">class.weather.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Weather.html#8-21" title="Go to source code">__construct</a>( <span>string <var>$city</var></span>, <span>string <var>$state</var></span> )</code>
+
+		<div class="description short">
+			<p>Get all weather info from $city</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get all weather info from $city</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$city</var></dt>
+					<dd>City of which you want to know the weather</dd>
+					<dt><var>$state</var></dt>
+					<dd>The state of that city</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getSunset" id="_getSunset">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getSunset">#</a>
+		<code><a href="source-class-Weather.html#23-33" title="Go to source code">getSunset</a>( <span>string <var>$format</var> = <span class="php-quote">&quot;H:i&quot;</span> </span> )</code>
+
+		<div class="description short">
+			<p>Get sunset time whit custom format</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get sunset time whit custom format</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$format</var></dt>
+					<dd>Custom format for sunset time ( default = "H:i")</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string<br>Sunset time
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getSunrise" id="_getSunrise">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getSunrise">#</a>
+		<code><a href="source-class-Weather.html#35-45" title="Go to source code">getSunrise</a>( <span>string <var>$format</var> = <span class="php-quote">&quot;H:i&quot;</span> </span> )</code>
+
+		<div class="description short">
+			<p>Get sunrise time whit custom format</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get sunrise time whit custom format</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$format</var></dt>
+					<dd>Custom format for sunrise time ( default = "H:i")</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string<br>Sunrise time
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getMinKel" id="_getMinKel">
+
+		<td class="attributes"><code>
+			 public 
+
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getMinKel">#</a>
+		<code><a href="source-class-Weather.html#47-54" title="Go to source code">getMinKel</a>( )</code>
+
+		<div class="description short">
+			<p>Get minimum Kelvin temperature</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get minimum Kelvin temperature</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					float<br>minimum Kelvin
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getMaxKel" id="_getMaxKel">
+
+		<td class="attributes"><code>
+			 public 
+
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getMaxKel">#</a>
+		<code><a href="source-class-Weather.html#56-63" title="Go to source code">getMaxKel</a>( )</code>
+
+		<div class="description short">
+			<p>Get maximum Kelvin temperature</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get maximum Kelvin temperature</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					float<br>maximum Kelvin
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getActKel" id="_getActKel">
+
+		<td class="attributes"><code>
+			 public 
+
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getActKel">#</a>
+		<code><a href="source-class-Weather.html#65-72" title="Go to source code">getActKel</a>( )</code>
+
+		<div class="description short">
+			<p>Get actual Kelvin temperature</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get actual Kelvin temperature</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					float<br>actual Kelvin
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getMinCels" id="_getMinCels">
+
+		<td class="attributes"><code>
+			 public 
+
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getMinCels">#</a>
+		<code><a href="source-class-Weather.html#74-81" title="Go to source code">getMinCels</a>( )</code>
+
+		<div class="description short">
+			<p>Get maximum Celsius temperature</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get maximum Celsius temperature</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					float<br>minimum Celsius
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getMaxCels" id="_getMaxCels">
+
+		<td class="attributes"><code>
+			 public 
+
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getMaxCels">#</a>
+		<code><a href="source-class-Weather.html#83-90" title="Go to source code">getMaxCels</a>( )</code>
+
+		<div class="description short">
+			<p>Get maximum Celsius temperature</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get maximum Celsius temperature</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					float<br>maximum Celsius
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getActCels" id="_getActCels">
+
+		<td class="attributes"><code>
+			 public 
+
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getActCels">#</a>
+		<code><a href="source-class-Weather.html#92-99" title="Go to source code">getActCels</a>( )</code>
+
+		<div class="description short">
+			<p>Get actual Celsius temperature</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get actual Celsius temperature</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					float<br>actual Celsius
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getMinFar" id="_getMinFar">
+
+		<td class="attributes"><code>
+			 public 
+
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getMinFar">#</a>
+		<code><a href="source-class-Weather.html#101-108" title="Go to source code">getMinFar</a>( )</code>
+
+		<div class="description short">
+			<p>Get maximum Fahrenheit temperature</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get maximum Fahrenheit temperature</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					float<br>maximum Fahrenheit
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getMaxFar" id="_getMaxFar">
+
+		<td class="attributes"><code>
+			 public 
+
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getMaxFar">#</a>
+		<code><a href="source-class-Weather.html#110-117" title="Go to source code">getMaxFar</a>( )</code>
+
+		<div class="description short">
+			<p>Get maximum Fahrenheit temperature</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get maximum Fahrenheit temperature</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					float<br>maximum Fahrenheit
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getActFar" id="_getActFar">
+
+		<td class="attributes"><code>
+			 public 
+
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getActFar">#</a>
+		<code><a href="source-class-Weather.html#119-126" title="Go to source code">getActFar</a>( )</code>
+
+		<div class="description short">
+			<p>Get actual Fahrenheit temperature</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get actual Fahrenheit temperature</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					float<br>actual Fahrenheit
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getWeatherIcon" id="_getWeatherIcon">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getWeatherIcon">#</a>
+		<code><a href="source-class-Weather.html#128-184" title="Go to source code">getWeatherIcon</a>( )</code>
+
+		<div class="description short">
+			<p>Get icon based on weather</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get icon based on weather</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string<br>Weather icon
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getWindDeg" id="_getWindDeg">
+
+		<td class="attributes"><code>
+			 public 
+
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getWindDeg">#</a>
+		<code><a href="source-class-Weather.html#186-194" title="Go to source code">getWindDeg</a>( )</code>
+
+		<div class="description short">
+			<p>Get wind direction</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get wind direction</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					integer<br>Wind direction
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getWindSpeed" id="_getWindSpeed">
+
+		<td class="attributes"><code>
+			 public 
+
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getWindSpeed">#</a>
+		<code><a href="source-class-Weather.html#196-218" title="Go to source code">getWindSpeed</a>( )</code>
+
+		<div class="description short">
+			<p>Get wind speed based on belfast scale</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get wind speed based on belfast scale</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					integer<br>Wind speed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getLat" id="_getLat">
+
+		<td class="attributes"><code>
+			 public 
+
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getLat">#</a>
+		<code><a href="source-class-Weather.html#220-228" title="Go to source code">getLat</a>( )</code>
+
+		<div class="description short">
+			<p>Get latitude</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get latitude</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					float<br>latitude
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getLon" id="_getLon">
+
+		<td class="attributes"><code>
+			 public 
+
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getLon">#</a>
+		<code><a href="source-class-Weather.html#230-238" title="Go to source code">getLon</a>( )</code>
+
+		<div class="description short">
+			<p>Get longitude</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get longitude</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					float<br>longitude
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getPressure" id="_getPressure">
+
+		<td class="attributes"><code>
+			 public 
+
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getPressure">#</a>
+		<code><a href="source-class-Weather.html#240-248" title="Go to source code">getPressure</a>( )</code>
+
+		<div class="description short">
+			<p>Get pressure</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get pressure</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					float<br>pressure
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getSeaLevel" id="_getSeaLevel">
+
+		<td class="attributes"><code>
+			 public 
+
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getSeaLevel">#</a>
+		<code><a href="source-class-Weather.html#250-258" title="Go to source code">getSeaLevel</a>( )</code>
+
+		<div class="description short">
+			<p>Get sea level</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get sea level</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					float<br>sea level
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getGroundLevel" id="_getGroundLevel">
+
+		<td class="attributes"><code>
+			 public 
+
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getGroundLevel">#</a>
+		<code><a href="source-class-Weather.html#260-268" title="Go to source code">getGroundLevel</a>( )</code>
+
+		<div class="description short">
+			<p>Get ground level</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get ground level</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					float<br>ground level
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getHumidity" id="_getHumidity">
+
+		<td class="attributes"><code>
+			 public 
+
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getHumidity">#</a>
+		<code><a href="source-class-Weather.html#270-278" title="Go to source code">getHumidity</a>( )</code>
+
+		<div class="description short">
+			<p>Get humidity</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get humidity</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					integer<br>humidity
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRaw" id="_getRaw">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRaw">#</a>
+		<code><a href="source-class-Weather.html#280-288" title="Go to source code">getRaw</a>( )</code>
+
+		<div class="description short">
+			<p>Get raw information</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get raw information</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string<br>Raw data
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>
